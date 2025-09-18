@@ -1,4 +1,6 @@
 obj-m += p2p.o
+p2p-objs := main.o utils.o
+
 PWD := $(CURDIR)
 
 # There are two gcc installed in this pc so adding the cc path; generally not required
