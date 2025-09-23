@@ -1,3 +1,4 @@
+obj-m += procfs1.o
 obj-m += p2p.o
 p2p-objs := main.o utils.o
 
